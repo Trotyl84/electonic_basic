@@ -16,7 +16,7 @@ Uc  I
 """
 
 # Data example:
-Uc = 5 
+Uc = 5
 Ud = 1.5
 I = 10 # [ mA ]
 
