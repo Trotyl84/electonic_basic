@@ -29,7 +29,7 @@ def calculations(Uc,Ud,I):
     R  = Ur/I
     Wr = Ur*I
     Wd = Ud*I
-    return R,Wd,Wr
+    return R, Wd, Wr
 
 
 if __name__ == "__main__":
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     try:
         Uc = float(input("Plese insert supply voltage [ V ] :\n"))
         Ud = float(input("Plese insert LED voltage [ V ] :\n"))
-        I = float(input("Diode operating current consumed [ mA ] : \n"))
+        I = float(input("Diode operating current consumed [ mA ] :\n"))
 
     except ValueError:
         print( """Enter the number as a digit. 
