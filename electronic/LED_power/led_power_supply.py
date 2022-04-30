@@ -20,7 +20,7 @@ def calculations(Uc,Ud,I):
     :param Uc: [ V ] Supply voltage
     :param Ud: [ V ] Voltage of correct operation of the diode.
     :param I:  [ mA ]  Diode operating current consumed
-    :return R,Wd,Wr,Ur:
+    :return R,Wd,Wr,:
         R: [ kOHM ] Value matching resistor expressed in Kilohms
         Wd: [ mW ] The power emitted by the diode. Value expressed in milliwatts
         Wr: [ mW ] The power released on the resistor. Value expressed in milliwatts
@@ -62,3 +62,4 @@ if __name__ == "__main__":
     %5.0f [ mW ] The power emitted by the diode. Value expressed in milliwatts.
     %5.0f [ mW ] The power released on the resistor. Value expressed in milliwatts
     """ % calculations( Uc, Ud, I ))
+# (Point 2)
