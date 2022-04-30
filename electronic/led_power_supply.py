@@ -58,7 +58,7 @@ if __name__ == "__main__":
         Use dots to mark the tenth part""")
 
     finally:
-        print("""       12%5.3f [ kOHM ] Value matching resistor expressed in Kilohms.
+        print("""       %5.3f [ kOHM ] Value matching resistor expressed in Kilohms.
     %5.0f [ mW ] The power emitted by the diode. Value expressed in milliwatts.
     %5.0f [ mW ] The power released on the resistor. Value expressed in milliwatts
     """ % calculations( Uc, Ud, I ))
